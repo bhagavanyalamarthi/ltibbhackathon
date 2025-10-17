@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image:bhagavanyalamarthi/venkat:dbimg
+        image: bhagavanyalamarthi/venkat:dbimg
         ports:
         - containerPort: 80
           name: web
